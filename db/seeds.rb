@@ -7,7 +7,7 @@ end
 
 2.times do
     #game = Game.create()
-
+    
     Game.create(
         title: "Assassins's Creed: Brotherhood", 
         platform: "PC", 

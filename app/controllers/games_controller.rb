@@ -35,11 +35,12 @@ class GamesController < ApplicationController
         end
     
     delete '/games/:id' do
+        # binding.pry
         # finds the game using the ID
             game = Game.find(params[:id])
         # deletes the game entry
-            review.destroy
+            game.destroy
         # sends a JSON response with the deleted review
-            review.to_json
+            game.to_json
     end
 end
