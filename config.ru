@@ -13,4 +13,5 @@ use Rack::JSONBodyParser
 
 # Our application
 run ApplicationController
-run GamesController
+use GamesController
+use UsersController
