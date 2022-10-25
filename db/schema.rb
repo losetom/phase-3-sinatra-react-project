@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(version: 2022_10_22_185713) do
     t.string "platform"
     t.string "genre"
     t.float "price"
+    t.integer "user_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
